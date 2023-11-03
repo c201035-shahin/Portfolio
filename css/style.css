@@ -248,17 +248,25 @@ header.sticky{
 	margin-top: 4.5rem;
 }
 .row{
-	background: var(--second-bg-color);
+	background: #303536;
 	padding: 55px 30px;
 	border-radius: 10px;
 	cursor: pointer;
 	transition: all .30s;
 }
-.row i{
+.row img{
+	max-width: 100%;
+	width: 400px;
+	height: auto;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	transition: all .3s;
+}
+/*.row i{
 	color: var(--main-color);
 	margin-bottom: 20px;
 	font-size: 2.7rem;
-}
+}*/
 .row h3{
 	color: var(--text-color);
 	font-size: 22px;
